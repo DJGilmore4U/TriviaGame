@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 // Questions and Answer Arrays
     var question = ["The RMS Olympic and HMHS Britannic were sister ships to which other British passenger liner?",
-    "Who is credited with the assassination of American outlaw Jesse James?", "According to Greek mythology, who was the god of wine?", "What 3 countries were part of the original Axis powers in World War II afger the Trripartite Pact was signed?", "What Byzantine city was renamed Istanbul after being captured by the Ottoman Empire?",
+    "Who is credited with the assassination of American outlaw Jesse James?", "According to Greek mythology, who was the god of wine?", "What 3 countries were part of the original Axis powers in World War II after the Tripartite Pact was signed?", "What Byzantine city was renamed Istanbul after being captured by the Ottoman Empire?",
     "According to Arthurian legend, what was the name of the sword in the stone?", "The United States Constitution replaced what other document on March 4, 1789?", "Who wrote the Pledge of Allegiance of the United States?"];
     var answer = ["RMS Titanic", "Robert Ford", "Dionysus", "Germany, Italy, and Japan", "Constantinople", "Excalibur or Caliburn", "The Articles of Confederation", "Francis Bellamy"];
     var firstChoice = ["USS Davis", "Thomas Crittenden", "Bacchus", "USA, Slovakia, and Japan", "Adrianople", "Stonecutter", "Bill of Rights", "Francis Scott Key"];

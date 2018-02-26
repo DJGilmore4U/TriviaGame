@@ -13,6 +13,8 @@ h2 {
 }
 .jumbotron {
     background-image: url("../images/header-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -23,9 +25,10 @@ body {
 }
 
 img {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
+
 
 .btn { 
   color: #ffffff; 
@@ -73,18 +76,21 @@ fieldset[disabled] .btn.active {
   background-color: #ffffff; 
 }
 
-.box1 {
-    float: left;
-    width: 15%;
-    height: 60px;
+#question-holder {
+  line-height: 50%;
 }
-
-.box2 {
-  float: right;
-  width: 15%;
-  height: 60px;
+#answer-holder {
+  line-height: 50%;
 }
-
-#container {
-    width:100%;
+#choice-holder-1{
+  line-height: 50%;
+}
+#choice-holder-2{
+  line-height: 50%;
+}
+#choice-holder-3{
+  line-height: 50%;
+}
+#choice-holder-4{
+  line-height: 50%;
 }
