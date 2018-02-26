@@ -196,6 +196,7 @@ $(document).ready(function(){
 
  // Show Results Function   
     function showResults() {
+        $("#answer-holder").html("");
         $("#correct-holder").show();
         $("#correct-holder").html("Correct: " + correct);
         $("#incorrect-holder").show();
@@ -203,8 +204,9 @@ $(document).ready(function(){
         $("#unanswered-holder").show();
         $("#unanswered-holder").html("Unanswered: " + unanswered);
         $("#restart-holder").show();
-        $("#restart-holder").html("Click Start above to play again!");
-        alert("Correct: " + correct + " | Incorrect: " + incorrect + " | Unanswered: " + unanswered + " | To Play Again, Press OK!");
+        $("#restart-holder").html("Click the button above to play again!");
+        $("#image-holder").html("");
+        alert("Correct: " + correct + " | Incorrect: " + incorrect + " | Unanswered: " + unanswered);
     }
 
 // Reset Results Function 
