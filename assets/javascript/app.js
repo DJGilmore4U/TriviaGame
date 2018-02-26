@@ -53,28 +53,28 @@ $(document).ready(function(){
     
     // Hover CSS
         $("#choice-holder-1").hover(function() {
-            $(this).css("color", "white");
+            $(this).css("color", "gray");
         },
         function(){
-            $(this).css("color", "gray");
+            $(this).css("color", "#3092c7");
         });
         $("#choice-holder-2").hover(function() {
-            $(this).css("color", "white");
+            $(this).css("color", "gray");
         },
         function(){
-            $(this).css("color", "gray");
+            $(this).css("color", "#3092c7");
         });
         $("#choice-holder-3").hover(function() {
-            $(this).css("color", "white");
+            $(this).css("color", "gray");
         },
         function(){
-            $(this).css("color", "gray");
+            $(this).css("color", "#3092c7");
         });
         $("#choice-holder-4").hover(function() {
-            $(this).css("color", "white");
+            $(this).css("color", "gray");
         },
         function(){
-            $(this).css("color", "gray");
+            $(this).css("color", "#3092c7");
         });
     }
     $("#choice-holder-1").on("click", checkAnswer) 
