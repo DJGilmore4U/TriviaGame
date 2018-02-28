@@ -8,7 +8,7 @@ h2 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(white);
-    line-height: 30%;
+    line-height: 1em;
     font-size: large;
 }
 .jumbotron {
@@ -29,6 +29,9 @@ img {
 	height: 250px;
 }
 
+.div{
+  height: 50px;
+}
 
 .btn { 
   color: #ffffff; 
@@ -77,20 +80,20 @@ fieldset[disabled] .btn.active {
 }
 
 #question-holder {
-  line-height: 60%;
+  line-height: 1em;
 }
 #answer-holder {
-  line-height: 60%;
+  line-height: .5em;
 }
 #choice-holder-1{
-  line-height: 60%;
+  line-height: .5em;
 }
 #choice-holder-2{
-  line-height: 60%;
+  line-height: .5em;
 }
 #choice-holder-3{
-  line-height: 60%;
+  line-height: .5em;
 }
 #choice-holder-4{
-  line-height: 60%;
+  line-height: .5em;
 }
